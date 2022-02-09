@@ -1,38 +1,75 @@
-.App {
+.coinImage{
+  background-color: black;
+  height: 16rem;
+  max-width: 16rem;
+  padding: 1rem;
+}
+.container{
+  background-color: rgb(206, 247, 233);
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card{
+  border-bottom: 0.5rem solid rgb(1, 29, 41);
+  margin: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.Navbar{
+  background-color: rgb(1, 29, 41);
+  padding-bottom: 1rem;
   align-items: center;
+  padding: 0.5rem;
+  height: 5rem;
+}
+
+.coin-search{
+  float: right;
+  background-color: aliceblue;
+  border-radius: 2rem;
+  width: 12rem;
+  height: 2rem;
+  font-size: 1.2rem;
+  padding: 5px;
+  padding-left: 10px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 2.5px solid rgb(1, 29, 41);
+  border-style: solid;
+}
+
+.Branding{
+  float: left;
+  color: aliceblue;
+  font-size: 1.6rem;
+}
+.data{
+  margin-top: 3rem;
+}
+.green{
+  color: green;
+}
+.red{
+  color: red;
+}
+.AddButton {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  text-align: center;
+  background-color: #0275d8;
   color: white;
+  border-radius: 20px;
+  width: 12rem;
+  font-family: sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer{
+  justify-content: center;
+  background-color: rgb(1, 29, 41);
+  color: white;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
 }
