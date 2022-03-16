@@ -10,7 +10,7 @@ const url =
 function App() {
   const [coins, setCoins] = React.useState([]);
   const [search, setSearch] = React.useState("");
-  const [visible ,setVisible] = React.useState(3);
+  const [visible ,setVisible] = React.useState(5);
 
   axios.get(url).then((res) => {
     setCoins(res.data);
