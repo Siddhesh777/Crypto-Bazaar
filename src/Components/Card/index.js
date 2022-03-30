@@ -1,6 +1,6 @@
 import React from "react";
 import {Card,CardContent,CardMedia,Typography,Grid} from "@mui/material";
-import "./App.css";
+import "../../App.css";
 import CountUp from "react-countup";
 
 export default function Coincard(coin) {

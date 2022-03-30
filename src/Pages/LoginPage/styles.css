@@ -1,0 +1,54 @@
+.loginform{
+    padding: 2rem;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+.loginPage{
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(206, 247, 233);
+}
+input{
+    border: 0;
+    font-size: 16px;
+    letter-spacing: 0.1rem;
+    background-color: white;
+    border-radius: 2rem;
+    display: block;
+    width: 400px;
+    height: 2rem;
+    padding-left:1rem ;
+    margin: 10px;
+    margin-left: 0px;
+
+
+}
+.icon{
+    margin: 0.8rem;
+}
+form{
+    justify-content: center;
+    align-items: center;
+}
+
+.submit{
+    width: 7rem;
+    display: inline-block;
+    margin: 1rem;
+    background-color: blue;
+}
+.row{
+    background-color: white;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    width: 25rem;
+    height: 2rem;
+    margin: 10px;
+    justify-content: center;
+    text-align: center ;
+
+}
+    
