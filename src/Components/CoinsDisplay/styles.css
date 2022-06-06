@@ -1,0 +1,35 @@
+.coin-search{
+    background-color: white;
+    border-radius: 10px;
+    border:0px;
+    width: 12rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    padding: 5px;
+    padding-left: 10px;
+    margin:auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .coin-search:hover{
+    box-shadow: 2.5px 5px #8888;
+  }
+  .AddButton {
+    text-align: center;
+    margin: auto;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    padding: 0.5rem;
+    background-color: rgb(255, 145, 0);
+    color: white;
+    border-radius: 5px;
+    width: 10rem;
+    font-family: sans-serif;
+  }
+  .AddButton:hover{
+    box-shadow: 2.5px 5px #8888;
+    cursor: pointer;
+  }
+  .coin-search:focus {
+    outline-width: 0;
+  }

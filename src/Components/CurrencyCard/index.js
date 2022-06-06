@@ -1,12 +1,22 @@
 import React from "react";
-import {Card,CardContent,CardMedia,Typography,Grid} from "@mui/material";
-import "../../App.css";
+import { Card, CardContent, CardMedia, Typography, Grid } from "@mui/material";
+import { Link } from "react-router-dom";
+import "./styles.css";
 import CountUp from "react-countup";
 
-export default function Coincard(coin) {
-
+function CurrencyCard(coin) {
   return (
-      <Grid item component={Card} spacing={3} className="card">
+    <Link
+      to={"/Crypto-details?id="+coin.name+"&ImgUrl="+coin.image+"&price="+coin.current_price+"&mk="+coin.market_cap+"&h="+coin.high_24h+"&l="+coin.low_24h+"&rank="+coin.market_cap_rank}
+      style={{ textDecoration: "none" }}
+    >
+      <Grid
+        item
+        component={Card}
+        spacing={3}
+        className="card"
+        data-aos={"fade-left"}
+      >
         <CardMedia
           component="img"
           height="140"
@@ -49,10 +59,9 @@ export default function Coincard(coin) {
             />
           </Typography>
         </CardContent>
-        {/* <CardActions>
-          <Button size="small">Share</Button>
-          <Button size="small">Learn More</Button>
-        </CardActions> */}
       </Grid>
+    </Link>
   );
 }
+
+export default CurrencyCard;

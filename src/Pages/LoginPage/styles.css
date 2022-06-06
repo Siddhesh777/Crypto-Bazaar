@@ -1,54 +1,78 @@
-.loginform{
-    padding: 2rem;
-    margin-top: 100px;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid black;
-}
-.loginPage{
-    justify-content: center;
-    text-align: center;
-    background-color: rgb(206, 247, 233);
-}
-input{
-    border: 0;
-    font-size: 16px;
-    letter-spacing: 0.1rem;
-    background-color: white;
-    border-radius: 2rem;
-    display: block;
-    width: 400px;
-    height: 2rem;
-    padding-left:1rem ;
-    margin: 10px;
-    margin-left: 0px;
-
-
-}
-.icon{
-    margin: 0.8rem;
-}
-form{
-    justify-content: center;
-    align-items: center;
+.login_heading {
+  margin: 1rem auto;
 }
 
-.submit{
-    width: 7rem;
-    display: inline-block;
-    margin: 1rem;
-    background-color: blue;
+.login_form {
+  background-color: white;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  box-shadow: 0px 0px 0px 0.7px rgba(50, 50, 93, 0.1),
+    0px 2px 7px 0px rgba(50, 50, 93, 0.1), 0px 1px 2.5px 0px rgba(0, 0, 0, 0.07);
+  border-radius: 7px;
+  padding: 40px;
 }
-.row{
-    background-color: white;
-    border-radius: 2rem;
-    display: flex;
-    align-items: center;
-    width: 25rem;
-    height: 2rem;
-    margin: 10px;
-    justify-content: center;
-    text-align: center ;
 
+.login_input_element {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
 }
-    
+
+.login_form input {
+  font-size: 1.2rem;
+  width: 80%;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  box-shadow: 0px 1px 1px rgb(0 0 0 / 3%), 0px 3px 6px rgb(0 0 0 / 2%);
+  background-color: white;
+}
+
+.login_form > button {
+  padding: 12px 0px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: rgb(228 129 9);
+  cursor: pointer;
+  width: 100%;
+}
+
+.login_form > button:hover {
+  transform: scale(1.02);
+}
+
+.login_close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: medium;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  .login_form {
+    width: 80vw;
+    padding: 20px;
+  }
+}
+
+.login_links {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  padding: 10px;
+  width: 100%;
+}
+.Lform {
+  margin-top: 7rem;
+  margin-bottom: 12.5rem;
+}

@@ -1,0 +1,8 @@
+.portTable{
+    display:flex;
+    justify-content:center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width:100%;
+    font-size:20px;
+}

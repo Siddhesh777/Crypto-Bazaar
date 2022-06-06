@@ -1,0 +1,27 @@
+.green {
+  color: green;
+}
+.red {
+  color: red;
+}
+.data {
+  margin-top: 3rem;
+}
+.coinImage {
+  background-color: black;
+  height: 18rem;
+  max-width: 18rem;
+  padding: 1rem;
+}
+.card {
+  border-bottom: 0.5rem solid #1a2238;
+  border-left: 2px solid #8888;
+  border-right: 2px solid #8888;
+  margin: 10px;
+}
+.card:hover {
+  border: 0px;
+  box-shadow: 5px 10px rgb(1, 29, 41);
+  cursor: pointer;
+}
+
