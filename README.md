@@ -2,10 +2,6 @@
 
 # crypto-bazaar
 
-<p align="center" width="100%">
-    <img width="300" src="Client/src/assets/logo.png"> 
-</p>
-
 Developed a full stack web applicaOon using MERN stack which is a cryptocurrency porholio tracker allowing users to monitor the price change of different assets they own so that users can manage their cryptocurrency porholio properly and more efficiently
 
 # Table of Contents
