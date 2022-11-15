@@ -9,9 +9,9 @@ Developed a full stack web applicaOon using MERN stack which is a cryptocurrency
   - [Installation](#installation)
 
 ## Tech-Stack
-For Client Side Development : ReactJs (Funcitonal Components)
-For Server Side Development : Nodejs, Expressjs
-Database : MonogoDb(NoSql),Mongoose(package)
+* For Client Side Development : ReactJs (Funcitonal Components)
+* For Server Side Development : Nodejs, Expressjs
+* Database : MonogoDb(NoSql),Mongoose(package)
 
 
 ## Installation
