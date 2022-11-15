@@ -9,7 +9,9 @@ Developed a full stack web applicaOon using MERN stack which is a cryptocurrency
   - [Installation](#installation)
 
 ## Tech-Stack
-Tech used: Mongodb, ReactJs, NodeJS ,Express, google APIs etc .
+For Client Side Development : ReactJs (Funcitonal Components)
+For Server Side Development : Nodejs, Expressjs
+Database : MonogoDb(NoSql),Mongoose(package)
 
 
 ## Installation
