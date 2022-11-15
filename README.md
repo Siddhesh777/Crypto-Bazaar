@@ -18,7 +18,7 @@ Tech used: Mongodb, ReactJs, NodeJS ,Express, google APIs etc .
 
 ## Installation
 Follow the instructions to get started with the project on your local machine 🚀
-* Fork and clone the project
+* Fork and Clone the project
 * `npm install` to install dependencies required for server side development
 * `cd client/` and run `npm install` to install dependencies for client side development
 * Run `npm start` to run the project on development
