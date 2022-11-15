@@ -1,6 +1,6 @@
 [![Join the chat at https://gitter.im/crypto-bazaar/community](https://badges.gitter.im/crypto-bazaar/community.svg)](https://gitter.im/crypto-bazaar/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-# crypto-bazaar
+# Crypto Bazaar
 
 <p align="center" width="100%">
     <img width="300" src="https://github.com/adityabisoi/crypto-bazaar/blob/main/icon.png"> 
