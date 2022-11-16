@@ -17,6 +17,5 @@ Developed a full stack web applicaOon using MERN stack which is a cryptocurrency
 ## Installation
 Follow the instructions to get started with the project on your local machine 🚀
 * Fork and Clone the project
-* `npm install` to install dependencies required for server side development
-* `cd client/` and run `npm install` to install dependencies for client side development
+* Run `npm install` to install required dependencies
 * Run `npm start` to run the project on development

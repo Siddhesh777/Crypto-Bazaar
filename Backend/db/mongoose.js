@@ -1,7 +1,7 @@
 //********************Setting up a local Database**************************** 
 
 const mongoose=require('mongoose')
-mongoose.connect('mongodb://127.0.0.1:27017/Crypto-Bazaar',{})
+mongoose.connect('mongodb://127.0.0.1:27017/Crypto-Bazaar',{}).then(()=>{console.log("Connected")});
 const connectToDatabase=()=>{console.log("Connected")}
 module.exports=connectToDatabase
 
